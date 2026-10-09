@@ -5,7 +5,7 @@ permalink: /privacidade/
 
 # POLÍTICA DE PRIVACIDADE — JARVIS
 
-Última atualização: 7 de outubro de 2026
+Última atualização: 9 de outubro de 2026
 
 Esta Política de Privacidade explica como o Jarvis trata informações durante o uso do aplicativo e dos serviços relacionados.
 
@@ -44,6 +44,8 @@ Enquanto a escuta estiver ativa, o Jarvis utiliza o microfone para detectar fala
 
 A transcrição de voz utiliza processamento local com Whisper. A transcrição resultante poderá ser enviada a um provedor externo de inteligência artificial, conforme a configuração utilizada.
 
+Para cancelar o eco da própria voz do assistente, o Jarvis também pode captar o áudio que sai pelos alto-falantes do computador. Esse áudio é usado apenas para esse fim, é processado localmente, não é gravado e não é enviado a terceiros.
+
 Os recursos de arquivos e automação podem acessar informações do computador necessárias às tarefas solicitadas, respeitando as permissões e os controles disponíveis no aplicativo.
 
 ## 4. PROCESSAMENTO LOCAL E SERVIÇOS EXTERNOS
@@ -57,6 +59,8 @@ Ao selecionar síntese de voz externa, o texto a ser convertido em áudio é env
 Entre as integrações disponíveis estão OpenAI, OpenRouter, ElevenLabs e Fish Audio. Pesquisas na internet, Spotify e outras APIs configuradas também podem transmitir consultas e dados necessários à execução dos pedidos.
 
 Recursos opcionais de decisão por inteligência artificial, como o Jev via OpenRouter, podem enviar transcrições e contexto limitado mesmo quando o provedor principal de inteligência artificial é local.
+
+Na primeira utilização, o Jarvis baixa o modelo de transcrição de voz (Whisper) do repositório Hugging Face, que poderá registrar o endereço IP e dados técnicos da conexão. A reprodução de vídeos e músicas do YouTube e do Spotify utiliza os players desses serviços, que podem armazenar cookies e dados de uso conforme suas próprias políticas.
 
 Cada serviço externo possui suas próprias condições e políticas de privacidade. O uso de recursos locais não elimina as conexões necessárias a licenciamento, atualizações e outras integrações habilitadas.
 
